@@ -1,0 +1,28 @@
+{
+  "name": "jaapsh",
+  "private": true,
+  "version": "1.0.0",
+  "description": "sanity studio",
+  "main": "package.json",
+  "author": "fastnloud",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^0.129.1",
+    "@sanity/components": "^0.129.1",
+    "@sanity/core": "^0.129.1",
+    "@sanity/default-layout": "^0.129.2",
+    "@sanity/default-login": "^0.128.3",
+    "@sanity/desk-tool": "^0.129.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {}
+}
